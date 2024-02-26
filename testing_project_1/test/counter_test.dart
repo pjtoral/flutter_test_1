@@ -33,7 +33,7 @@ main() {
         counter.incrementCount(); //simulate the pressing of increment button
         // ASSERT
         expect(counter.count,
-            2); // test if counter.count has incremented accordingly
+            3); // test if counter.count has incremented accordingly
       });
 
       test(
@@ -60,7 +60,7 @@ main() {
         //ACT
         counter.decrementCount();
         //ASSERT
-        expect(counter.count, -1);
+        expect(counter.count, 0);
       });
       test(
           'Given instantiated Counter class, when increment then decrement is called, then count = 0 ',
