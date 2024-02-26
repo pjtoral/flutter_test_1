@@ -61,6 +61,7 @@ main() {
       test('Given an instantiated Counter obj, When reset is called, count = 0',
           () {
         //ACT
+        counter.incrementCount();
         counter.resetCount();
         //ASSETT
         expect(counter.count, 0);
