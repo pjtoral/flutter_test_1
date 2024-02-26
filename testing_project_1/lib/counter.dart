@@ -6,7 +6,7 @@ class Counter {
 
   int get count => _count;
 
-  void incrementCoun() {
+  void incrementCount() {
     _count++;
   }
 }
