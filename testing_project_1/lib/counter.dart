@@ -9,4 +9,8 @@ class Counter {
   void incrementCount() {
     _count++;
   }
+
+  void decrementCount() {
+    _count--;
+  }
 }
